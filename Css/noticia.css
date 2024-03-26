@@ -2,7 +2,7 @@ body {
 background-color: rgb(12, 11, 11);
 font-family: sans-serif;
 color: white;
-margin: 0%;
+margin: 0rem;
 }
 
 /* Inicio Header */
@@ -26,7 +26,7 @@ height: 100%;
 width: 0;
 position: fixed;
 z-index: 1;
-top: 3.9rem;
+top: 2.4375rem;
 left: 0;
 background-color: #111;
 overflow-x: hidden;
@@ -38,16 +38,16 @@ background-color: #000000;
 }
 
 .barraL a {
-padding: 8px 8px 8px 32px;
+padding: 0.5rem 0.5rem 0.5rem 2rem;
 text-decoration: none;
-font-size: 25px;
+font-size: 1.5625rem;
 color: #818181;
 display: block;
 transition: 0.3s;
 }
 
 .primeiro {
-margin-top: 20px;
+margin-top: 1.25rem;
 }
 
 .barraL a:hover {
@@ -57,9 +57,9 @@ color: rgb(101, 184, 166);
 .barraL .fechar {
 position: absolute;
 top: 0;
-right: 10px;
-font-size: 25px;
-margin-left: 50px;
+right: 0.625rem;
+font-size: 1.5625rem;
+margin-left: 3.125rem;
 }
 
 .abrir {
@@ -67,7 +67,7 @@ font-size: 2rem;
 cursor: pointer;
 background-color: #000000;
 color: white;
-padding: 10px 15px;
+padding: 0.625rem 0.9375rem;
 border: none;
 }
 
@@ -77,43 +77,43 @@ transition: 0.45s;
 }
 
 @media screen and (max-height: 450px) {
-.barraL {padding-top: 15px;}
-.barraL a {font-size: 18px;}
+.barraL {padding-top: 0.9375rem;}
+.barraL a {font-size: 1.125rem;}
 }
 
 #texto{
 position: absolute;
 top: 0;
-right: 0.5rem;
-left: 1.5rem;
-margin-left: 25px;
-margin-top: 0.5rem;
+right: 0.3125rem;
+left: 0.9375rem;
+margin-left: 1.5625rem;
+margin-top: 0.3125rem;
 }
 /*Fim Header */
 main{
-max-width: 1000px;
-padding: 80px;
+max-width: 62.5rem;
+padding: 5rem;
 }
 
 img[class="logo"]{
-width: 250px;
-height: 50px;
-left: 1.5rem;
-margin-top: 0.5rem;
-margin-left: 25px;
+width: 15.625rem;
+height: 3.125rem;
+left: 0.9375rem;
+margin-top: 0.3125rem;
+margin-left: 1.5625rem;
 }
 
 img[class="controle"]{
-height: 25px;
-border-radius: 100px;
+height: 1.5625rem;
+border-radius: 6.25rem;
 }
 
 img[class="calendario"]{
-height: 25px;
+height: 1.5625rem;
 }
 
 p{
-padding: 10px;
+padding: 0.625rem;
 }
 
 ul li{
@@ -156,7 +156,7 @@ position: static;
 background-color: black;
 display: grid;
 grid-template-columns: repeat(4,1fr);
-padding: 3rem 3.5rem;
+padding: 1.875rem 2.1875rem;
 }
 
 footer ul li {
@@ -164,15 +164,15 @@ color: white;
 }
 
 .footer-logo{
-width: 200px;
+width: 12.5rem;
 }
 /*Deixa na mesma altura do que os "Blocos" contato e créditos*/
 .footer-lista-blog{
-margin: 0px;
+margin: 0rem;
 }
 /*Espaçamento entres os li*/
 .footer-lista-blog li{
-margin: 5px;
+margin: 0.3125rem;
 }
 
 .final h3 p{
@@ -199,5 +199,5 @@ color: white;
 }
 
 i{
-margin: 5px;
+margin: 0.3125rem;
 }
