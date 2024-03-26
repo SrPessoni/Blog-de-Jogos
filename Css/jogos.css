@@ -2,7 +2,7 @@ body{
 background-color: rgb(12, 11, 11);
 color: white;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin: 0rem;
+margin: 0px;
 }
 
 /* Inicio Header */
@@ -29,7 +29,7 @@ height: 100%;
 width: 0;
 position: fixed;
 z-index: 1;
-top: 2.4375rem;
+top: 3.9rem;
 left: 0;
 background-color: #111;
 overflow-x: hidden;
@@ -41,16 +41,16 @@ background-color: #000000;
 }
 
 .barraL a {
-padding: 0.5rem 0.5rem 0.5rem 2rem;
+padding: 8px 8px 8px 32px;
 text-decoration: none;
-font-size: 1.5625rem;
+font-size: 25px;
 color: #818181;
 display: block;
 transition: 0.3s;
 }
 
 .primeiro {
-margin-top: 1.25rem;
+margin-top: 20px;
 }
 
 .barraL a:hover {
@@ -60,9 +60,9 @@ color: #65B8A6;
 .barraL .fechar {
 position: absolute;
 top: 0;
-right: 0.625rem;
-font-size: 1.5625rem;
-margin-left: 3.125rem;
+right: 10px;
+font-size: 25px;
+margin-left: 50px;
 }
 
 .abrir {
@@ -70,7 +70,7 @@ font-size: 2rem;
 cursor: pointer;
 background-color: #000000;
 color: white;
-padding: 0.625rem 0.9375rem;
+padding: 10px 15px;
 border: none;
 }
 
@@ -80,17 +80,17 @@ transition: 0.45s;
 }
 
 @media screen and (max-height: 450px) {
-.barraL {padding-top: 0.9375rem;}
-.barraL a {font-size: 1.125rem;}
+.barraL {padding-top: 15px;}
+.barraL a {font-size: 18px;}
 }
 
 #texto{
 position: absolute;
 top: 0;
-right: 0.3125rem;
-left: 0.9375rem;
-margin-left: 1.5625rem;
-margin-top: 0.3125rem;
+right: 0.5rem;
+left: 1.5rem;
+margin-left: 25px;
+margin-top: 0.5rem;
 }
 
 /*Fim do Header */
@@ -99,13 +99,13 @@ text-align: center;
 }
 
 section{
-padding: 4.375rem;   
+padding: 70px;   
 }
 
 /* Todas as divs */
 div{
-margin-top: 0.9375rem;
-padding: 0.625rem;
+margin-top: 15px;
+padding: 10px;
 }
 
 /* Tirar os sublinhados */
@@ -116,18 +116,18 @@ text-decoration: none;
 /* DIV DOS JOGOS */
 div[class="display"]{ 
 background-color: rgb(15, 14, 14);
-padding: 0rem;
-border-radius: 0.3125rem;
-width: 15.208125rem;
+padding: 0px;
+border-radius: 5px;
+width: 243.33px;
 text-align: center;
 text-decoration: none;
-margin-left: 1.875rem;
+margin-left: 30px;
 }
 
 img[class="CS"]{
-width: 15.208125rem;
-height: 8.55375rem;
-border-radius: 0rem;
+width: 243.33px;
+height: 136.86px;
+border-radius: 0px;
 }
 
 p{
@@ -144,8 +144,8 @@ button[class="bodybut"]{
 background-color: #65B8A6; 
 border-color: #65B8A6;
 color: white;
-padding: 0.3125rem;
-border-radius: 0.625rem;
+padding: 5px;
+border-radius: 10px;
 cursor: pointer;
 }
 
@@ -170,7 +170,7 @@ position: static;
 background-color: black;
 display: grid;
 grid-template-columns: repeat(4,1fr);
-padding: 1.875rem 2.1875rem;
+padding: 3rem 3.5rem;
 }
 
 footer ul li {
@@ -178,17 +178,17 @@ color: white;
 }
 
 .footer-logo{
-width: 12.5rem;
+width: 200px;
 }
 
 /*Deixa na mesma altura do que os "Blocos" contato e créditos*/
 .footer-lista-blog{
-margin: 0rem;
+margin: 0px;
 }
 
 /*Espaçamento entres os li*/
 .footer-lista-blog li{
-margin: 0.3125rem;
+margin: 5px;
 }
 
 .final h3 p{
@@ -219,5 +219,5 @@ color: white;
 }
 
 i{
-margin: 0.3125rem;
+margin: 5px;
 }
