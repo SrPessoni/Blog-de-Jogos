@@ -1,7 +1,7 @@
 body {
 font-family: Arial;
 background: rgb(12, 11, 11);
-margin: 0rem;
+margin: 0px;
 color: white;
 }
 
@@ -26,7 +26,7 @@ height: 100%;
 width: 0;
 position: fixed;
 z-index: 3;
-top: 2.46875rem;
+top: 3.95rem;
 left: 0;
 background-color: #111;
 overflow-x: hidden;
@@ -38,16 +38,16 @@ background-color: #000000;
 }
 
 .barraL a {
-padding: 0.5rem 0.5rem 0.5rem 2rem;
+padding: 8px 8px 8px 32px;
 text-decoration: none;
-font-size: 1.5625rem;
+font-size: 25px;
 color: #818181;
 display: block;
 transition: 0.3s;
 }
 
 .primeiro {
-margin-top: 1.25rem;
+margin-top: 20px;
 }
 
 .barraL a:hover {
@@ -57,9 +57,9 @@ color: rgb(101, 184, 166);
 .barraL .fechar {
 position: absolute;
 top: 0;
-right: 0.625rem;
-font-size: 1.5625rem;
-margin-left: 3.125rem;
+right: 10px;
+font-size: 25px;
+margin-left: 50px;
 }
 
 .abrir {
@@ -67,7 +67,7 @@ font-size: 2rem;
 cursor: pointer;
 background-color: #000000;
 color: white;
-padding: 0.625rem 0.9375rem;
+padding: 10px 15px;
 border: none;
 }
 
@@ -77,24 +77,24 @@ transition: 0.45s;
 }
 
 @media screen and (max-height: 450px) {
-.barraL {padding-top: 0.9375rem;}
-.barraL a {font-size: 1.125rem;}
+.barraL {padding-top: 15px;}
+.barraL a {font-size: 18px;}
 }
 
 #texto{
 position: absolute;
 top: 0;
-right: 0.3125rem;
-left: 0.9375rem;
-margin-left: 1.5625rem;
-margin-top: 0.3125rem;
+right: 0.5rem;
+left: 1.5rem;
+margin-left: 25px;
+margin-top: 0.5rem;
 }
 
 /* Fake image */
 .fakeimg {
 background-color: rgb(12, 11, 11);
 display: inline-flex;
-padding: 1.25rem;
+padding: 20px;
 color: white;
 border: solid;
 border-color: #65B8A6;
@@ -104,45 +104,45 @@ aspect-ratio: 940 / 300;
 .fakeimg2 {
 background-color: rgb(12, 11, 11);
 display: inline-flex;
-padding: 1.25rem;
+padding: 20px;
 color: white;
 border: solid;
 border-color: #65B8A6;
 aspect-ratio: 940 / 300; 
-margin-top: 1.875rem;
+margin-top: 30px;
 }
 
 main{
-padding: 3.125rem;
+padding: 50px;
 background-color: rgb(12, 11, 11);
-margin-bottom: 0.625rem;
+margin-bottom: 10px;
 }
 
 .card {
-padding:1.25rem;
-margin-left: 4.375rem;
+padding:20px;
+margin-left: 70px;
 }
 
 .texto{
-padding-left: 1.25rem;
+padding-left: 20px;
 }
 
 .infomid{
 color: gray;
-padding: 0.625rem;
+padding: 10px;
 }
 
 h2{
 font-family: 'Times New Roman', Times, serif;
-padding: 0.625rem;
+padding: 10px;
 }
 
 .calendario{
-height: 1.25rem;
+height: 20px;
 }
 
 .controle{
-height: 1.5625rem;
+height: 25px;
 border-radius: 100px;
 }
 
@@ -165,7 +165,7 @@ position: static;
 background-color: black;
 display: grid;
 grid-template-columns: repeat(4,1fr);
-padding: 1.875rem 2.1875rem;
+padding: 3rem 3.5rem;
 }
 
 footer ul li {
@@ -173,17 +173,17 @@ color: white;
 }
 
 .footer-logo{
-width: 12.5rem;
+width: 200px;
 }
 
 /*Deixa na mesma altura do que os "Blocos" contato e créditos*/
 .footer-lista-blog{
-margin: 0rem;
+margin: 0px;
 }
 
 /*Espaçamento entres os li*/
 .footer-lista-blog li{
-margin: 0.3125rem;
+margin: 5px;
 }
 
 .final h3 p{
@@ -210,8 +210,8 @@ color: white;
 }
 
 i{
-margin-right: 0.625rem;
-margin-bottom: 0.625rem;
+margin-right: 10px;
+margin-bottom: 10px;
 }
 .txt {
 position: relative;
@@ -228,7 +228,7 @@ background: rgb(2, 2, 2);
 z-index: 2;
 color: #fff;
 width: 70%;
-margin-top: 3.125rem;
+margin-top: 50px;
 display: none;
 }
 
@@ -237,26 +237,26 @@ display: block;
 }
 
 .txt .jg h1 {
-font-size: 2.5rem;
+font-size: 40px;
 font-weight: 1000;
 text-transform: uppercase;
-margin-bottom: 2.5rem;
+margin-bottom: 40px;
 }
 
 .txt .jg h1 span {
-font-size: 2.1875rem;
+font-size: 35px;
 font-weight: 500;
 }
 
 .txt .jg a {
 background: #65b8a6;
-padding: 0.75rem;
+padding: 12px;
 color: rgb(0, 0, 0);
-font-size: 0.875rem;
+font-size: 14px;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
-border-radius: 0.1875rem;
-width: 4.375rem;
+border-radius: 3px;
+width: 70px;
 }
 
 .video-container {
@@ -294,13 +294,13 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-transform: translateY(5rem);
-margin-bottom: 0.75rem;
+transform: translateY(80px);
+margin-bottom: 12px;
 }
 
 .slide .xy {
-width: 0.75rem;
-height: 0.75rem;
+width: 12px;
+height: 12px;
 background: #fff;
 border-radius: 50%;
 cursor: pointer;
@@ -313,7 +313,7 @@ background: #65b8a6;
 }
 
 .slide .xy:not(:last-child) {
-margin-right: 1.25rem;
+margin-right: 20px;
 }
 
 .slide .xy:hover {
@@ -323,7 +323,7 @@ transform: scale(1.2);
 .video-s {
 position: absolute;
 width: 100%;
-height: 50rem;
+height: 800px;
 clip-path: circle(0% at 0 50%);
 }
 
@@ -335,5 +335,5 @@ transition-property: clip-path;
 
 .eu{
     text-align: center;
-    margin-top: 6.875rem;
+    margin-top: 110px;
 }
