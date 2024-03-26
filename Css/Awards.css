@@ -191,37 +191,3 @@ footer ul li {
 footer ul li span {
     color: white;
 }
-
-/* Estilos responsivos para dispositivos móveis */
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 18px;
-    }
-
-    header {
-        position: static;
-    }
-
-    .barraL {
-        position: static;
-        width: 100%;
-        height: auto;
-    }
-
-    .abrir {
-        display: none;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    .footer-content {
-        grid-template-columns: repeat(1,1fr);
-        padding: 1rem 1.5rem;
-    }
-
-    .footer-logo {
-        width: 100px;
-    }
-}
