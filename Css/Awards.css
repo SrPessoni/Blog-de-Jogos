@@ -2,7 +2,7 @@
 body {
     font-family: sans-serif;
     background-color: rgb(0, 0, 0);
-    margin: 0px;
+    margin: 0rem;
     color: white;
 }
 
@@ -12,12 +12,12 @@ a {
 }
 
 i {
-    margin: 5px;
+    margin: 0.3125rem;
 }
 
 .trofe {
-    margin-left: 5px;
-    height: 20px;
+    margin-left: 0.3125rem;
+    height: 1.25rem;
 }
 
 /* Estilos do Header */
@@ -41,7 +41,7 @@ header {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 3.9rem;
+    top: 2.4375rem;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -53,16 +53,16 @@ button {
 }
 
 .barraL a {
-    padding: 8px 8px 8px 32px;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
 
 .primeiro {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .barraL a:hover {
@@ -72,9 +72,9 @@ button {
 .barraL .fechar {
     position: absolute;
     top: 0;
-    right: 10px;
-    font-size: 25px;
-    margin-left: 50px;
+    right: 0.625rem;
+    font-size: 1.5625rem;
+    margin-left: 3.125rem;
 }
 
 .abrir {
@@ -82,7 +82,7 @@ button {
     cursor: pointer;
     background-color: #000000;
     color: white;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     border: none;
 }
 
@@ -93,41 +93,41 @@ button {
 
 @media screen and (max-height: 450px) {
     .barraL {
-        padding-top: 15px;
+        padding-top: 0.9375rem;
     }
     .barraL a {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
 #texto {
     position: absolute;
     top: 0;
-    right: 0.5rem;
-    left: 1.5rem;
-    margin-left: 25px;
-    margin-top: 0.5rem;
+    right: 0.3125rem;
+    left: 0.9375rem;
+    margin-left: 1.5625rem;
+    margin-top: 0.3125rem;
 }
 
 /* Estilos do Main */
 img[class="award"] {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 main {
-    padding: 50px;
+    padding: 3.125rem;
     background-color: rgb(12, 11, 11);
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 img[class="trofeu"] {
-    height: 20px;
-    margin-right: -10px;
+    height: 1.25rem;
+    margin-right: -0.625rem;
 }
 
 h3 {
-    text-indent: 20px;  
+    text-indent: 1.25rem;  
     color: #65B8A6; 
 }
 
@@ -150,7 +150,7 @@ footer {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 3rem 3.5rem;
+    padding: 1.875rem 2.1875rem;
 }
 
 footer ul li {
@@ -158,15 +158,15 @@ footer ul li {
 }
 
 .footer-logo {
-    width: 200px;
+    width: 12.5rem;
 }
 
 .footer-lista-blog {
-    margin: 0px;
+    margin: 0rem;
 }
 
 .footer-lista-blog li {
-    margin: 5px;
+    margin: 0.3125rem;
 }
 
 .final h3 {
