@@ -1,7 +1,7 @@
 body {
 font-family: Arial;
 background: rgb(12, 11, 11);
-margin: 0px;
+margin: 0rem;
 color: white;
 }
 
@@ -26,7 +26,7 @@ height: 100%;
 width: 0;
 position: fixed;
 z-index: 3;
-top: 3.95rem;
+top: 2.46875rem;
 left: 0;
 background-color: #111;
 overflow-x: hidden;
@@ -38,16 +38,16 @@ background-color: #000000;
 }
 
 .barraL a {
-padding: 8px 8px 8px 32px;
+padding: 0.5rem 0.5rem 0.5rem 2rem;
 text-decoration: none;
-font-size: 25px;
+font-size: 1.5625rem;
 color: #818181;
 display: block;
 transition: 0.3s;
 }
 
 .primeiro {
-margin-top: 20px;
+margin-top: 1.25rem;
 }
 
 .barraL a:hover {
@@ -57,9 +57,9 @@ color: rgb(101, 184, 166);
 .barraL .fechar {
 position: absolute;
 top: 0;
-right: 10px;
-font-size: 25px;
-margin-left: 50px;
+right: 0.625rem;
+font-size: 1.5625rem;
+margin-left: 3.125rem;
 }
 
 .abrir {
@@ -67,7 +67,7 @@ font-size: 2rem;
 cursor: pointer;
 background-color: #000000;
 color: white;
-padding: 10px 15px;
+padding: 0.625rem 0.9375rem;
 border: none;
 }
 
@@ -77,24 +77,24 @@ transition: 0.45s;
 }
 
 @media screen and (max-height: 450px) {
-.barraL {padding-top: 15px;}
-.barraL a {font-size: 18px;}
+.barraL {padding-top: 0.9375rem;}
+.barraL a {font-size: 1.125rem;}
 }
 
 #texto{
 position: absolute;
 top: 0;
-right: 0.5rem;
-left: 1.5rem;
-margin-left: 25px;
-margin-top: 0.5rem;
+right: 0.3125rem;
+left: 0.9375rem;
+margin-left: 1.5625rem;
+margin-top: 0.3125rem;
 }
 
 /* Fake image */
 .fakeimg {
 background-color: rgb(12, 11, 11);
 display: inline-flex;
-padding: 20px;
+padding: 1.25rem;
 color: white;
 border: solid;
 border-color: #65B8A6;
@@ -104,45 +104,45 @@ aspect-ratio: 940 / 300;
 .fakeimg2 {
 background-color: rgb(12, 11, 11);
 display: inline-flex;
-padding: 20px;
+padding: 1.25rem;
 color: white;
 border: solid;
 border-color: #65B8A6;
 aspect-ratio: 940 / 300; 
-margin-top: 30px;
+margin-top: 1.875rem;
 }
 
 main{
-padding: 50px;
+padding: 3.125rem;
 background-color: rgb(12, 11, 11);
-margin-bottom: 10px;
+margin-bottom: 0.625rem;
 }
 
 .card {
-padding:20px;
-margin-left: 70px;
+padding:1.25rem;
+margin-left: 4.375rem;
 }
 
 .texto{
-padding-left: 20px;
+padding-left: 1.25rem;
 }
 
 .infomid{
 color: gray;
-padding: 10px;
+padding: 0.625rem;
 }
 
 h2{
 font-family: 'Times New Roman', Times, serif;
-padding: 10px;
+padding: 0.625rem;
 }
 
 .calendario{
-height: 20px;
+height: 1.25rem;
 }
 
 .controle{
-height: 25px;
+height: 1.5625rem;
 border-radius: 100px;
 }
 
@@ -165,7 +165,7 @@ position: static;
 background-color: black;
 display: grid;
 grid-template-columns: repeat(4,1fr);
-padding: 3rem 3.5rem;
+padding: 1.875rem 2.1875rem;
 }
 
 footer ul li {
@@ -173,17 +173,17 @@ color: white;
 }
 
 .footer-logo{
-width: 200px;
+width: 12.5rem;
 }
 
 /*Deixa na mesma altura do que os "Blocos" contato e créditos*/
 .footer-lista-blog{
-margin: 0px;
+margin: 0rem;
 }
 
 /*Espaçamento entres os li*/
 .footer-lista-blog li{
-margin: 5px;
+margin: 0.3125rem;
 }
 
 .final h3 p{
@@ -210,8 +210,8 @@ color: white;
 }
 
 i{
-margin-right: 10px;
-margin-bottom: 10px;
+margin-right: 0.625rem;
+margin-bottom: 0.625rem;
 }
 .txt {
 position: relative;
@@ -228,7 +228,7 @@ background: rgb(2, 2, 2);
 z-index: 2;
 color: #fff;
 width: 70%;
-margin-top: 50px;
+margin-top: 3.125rem;
 display: none;
 }
 
@@ -237,26 +237,26 @@ display: block;
 }
 
 .txt .jg h1 {
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 1000;
 text-transform: uppercase;
-margin-bottom: 40px;
+margin-bottom: 2.5rem;
 }
 
 .txt .jg h1 span {
-font-size: 35px;
+font-size: 2.1875rem;
 font-weight: 500;
 }
 
 .txt .jg a {
 background: #65b8a6;
-padding: 12px;
+padding: 0.75rem;
 color: rgb(0, 0, 0);
-font-size: 14px;
+font-size: 0.875rem;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
-border-radius: 3px;
-width: 70px;
+border-radius: 0.1875rem;
+width: 4.375rem;
 }
 
 .video-container {
@@ -286,7 +286,6 @@ width: 100%;
 height: auto;
 max-height: 100%;
 object-fit: contain;
-
 }
 
 .slide {
@@ -295,13 +294,13 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-transform: translateY(80px);
-margin-bottom: 12px;
+transform: translateY(5rem);
+margin-bottom: 0.75rem;
 }
 
 .slide .xy {
-width: 12px;
-height: 12px;
+width: 0.75rem;
+height: 0.75rem;
 background: #fff;
 border-radius: 50%;
 cursor: pointer;
@@ -314,7 +313,7 @@ background: #65b8a6;
 }
 
 .slide .xy:not(:last-child) {
-margin-right: 20px;
+margin-right: 1.25rem;
 }
 
 .slide .xy:hover {
@@ -324,7 +323,7 @@ transform: scale(1.2);
 .video-s {
 position: absolute;
 width: 100%;
-height: 800px;
+height: 50rem;
 clip-path: circle(0% at 0 50%);
 }
 
@@ -336,5 +335,5 @@ transition-property: clip-path;
 
 .eu{
     text-align: center;
-    margin-top: 110px;
+    margin-top: 6.875rem;
 }
