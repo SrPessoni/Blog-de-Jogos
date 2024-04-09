@@ -79,6 +79,7 @@ transition: 0.45s;
 @media screen and (max-height: 450px) {
 .barraL {padding-top: 15px;}
 .barraL a {font-size: 18px;}
+main {width: 80%}
 }
 
 #texto{
